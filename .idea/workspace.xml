@@ -20,13 +20,87 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77418245-90d0-47eb-8c87-73d1e69f04f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/front-end/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/front-end/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/c-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/c-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/c-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/ceo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/cta-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/cta.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/device.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/features-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/features.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/headpiece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/sub-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/bg-img/welcome-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/lb-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/lb-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/lb-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/blog-img/lb-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/clients-img/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/clients-img/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/clients-img/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/clients-img/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/clients-img/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/alarm-clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/atomic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/breadcumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/gamepad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/like.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/message.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/photo-camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/presentation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/safebox.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/search-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/settings-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/video-camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/core-img/work-progress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/front-end/portfolio-img/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/jquery-2.2.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/map-active.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/front-end/popper.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,9 +237,14 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/front-end" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel-projects\encontre\resources\lang" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -186,7 +265,8 @@
       <workItem from="1604039107618" duration="611000" />
       <workItem from="1604040533368" duration="1735000" />
       <workItem from="1604066537410" duration="10000" />
-      <workItem from="1604248815316" duration="548000" />
+      <workItem from="1604248815316" duration="2022000" />
+      <workItem from="1604608952835" duration="774000" />
     </task>
     <servers />
   </component>
