@@ -12,13 +12,13 @@
     <title>Mosh - Creative Business Template | Home</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="{{ asset('assets/img/front-end/core-img/favicon.ico') }}">
 
     <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/front-end/style.css') }}" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="{{ asset('assets/css/front-end/responsive.css') }}" rel="stylesheet">
 
 </head>
 
@@ -37,7 +37,7 @@
                     <div class="menu_area h-100">
                         <nav class="navbar h-100 navbar-expand-lg align-items-center">
                             <!-- Logo -->
-                            <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt="logo"></a>
+                            <a class="navbar-brand" href="index.html"><img src="{{ asset('assets/img/front-end/core-img/logo.png') }}" alt="logo"></a>
 
                             <!-- Menu Area -->
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mosh-navbar" aria-controls="mosh-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -68,12 +68,12 @@
                                 <div class="search-form-area animated">
                                     <form action="#" method="post">
                                         <input type="search" name="search" id="search" placeholder="Type keywords &amp; hit enter">
-                                        <button type="submit" class="d-none"><img src="img/core-img/search-icon.png" alt="Search"></button>
+                                        <button type="submit" class="d-none"><img src="{{ asset('assets/img/front-end/core-img/search-icon.png') }}" alt="Search"></button>
                                     </form>
                                 </div>
                                 <!-- Search btn -->
                                 <div class="search-button">
-                                    <a href="#" id="search-btn"><img src="img/core-img/search-icon.png" alt="Search"></a>
+                                    <a href="#" id="search-btn"><img src="{{ asset('assets/img/front-end/core-img/search-icon.png') }}" alt="Search"></a>
                                 </div>
                                 <!-- Login/Register btn -->
                                 <div class="login-register-btn">
@@ -90,14 +90,14 @@
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Welcome Area Start ***** -->
-    <section class="welcome_area clearfix" id="home" style="background-image: url(img/bg-img/welcome-bg.png)">
+    <section class="welcome_area clearfix" id="home" style="background-image: url({{ asset('assets/img/front-end/bg-img/welcome-bg.png') }})">
         <div class="hero-slides owl-carousel">
             <!-- Single Hero Slides -->
             <div class="single-hero-slide d-flex align-items-end justify-content-center">
                 <div class="hero-slide-content text-center">
                     <h2>A Clean and Modern Template</h2>
                     <h4>Get your freebie template now!</h4>
-                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                    <img class="slide-img" src="{{ asset('assets/img/front-end/bg-img/device.png') }}" alt="">
                 </div>
             </div>
             <!-- Single Hero Slides -->
@@ -105,7 +105,7 @@
                 <div class="hero-slide-content text-center">
                     <h2>A Clean and Modern Template</h2>
                     <h4>Get your freebie template now!</h4>
-                    <img class="slide-img" src="img/bg-img/device.png" alt="">
+                    <img class="slide-img" src="{{ asset('assets/img/front-end/bg-img/device.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -177,11 +177,11 @@
                 </div>
                 <div class="col-12">
                     <div class="clients-logo-area d-sm-flex align-items-center justify-content-between">
-                        <a href="#"><img src="img/clients-img/1.png" alt=""></a>
-                        <a href="#"><img src="img/clients-img/2.png" alt=""></a>
-                        <a href="#"><img src="img/clients-img/3.png" alt=""></a>
-                        <a href="#"><img src="img/clients-img/4.png" alt=""></a>
-                        <a href="#"><img src="img/clients-img/5.png" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/img/front-end/clients-img/1.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/img/front-end/clients-img/2.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/img/front-end/clients-img/3.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/img/front-end/clients-img/4.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ asset('assets/img/front-end/clients-img/5.png') }}" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
         </div>
         <!-- Feature Thumb -->
         <div class="features-img">
-            <img src="img/bg-img/features.png" alt="">
+            <img src="{{ asset('assets/img/front-end/bg-img/features.png') }}" alt="">
         </div>
     </section>
     <!-- ***** Feature Area End ***** -->
@@ -248,28 +248,28 @@
     <section class="mosh-more-services-area d-sm-flex clearfix">
         <div class="single-more-service-area">
             <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".1s">
-                <img src="img/core-img/trophy.png" alt="">
+                <img src="{{ asset('assets/img/front-end/core-img/trophy.png') }}" alt="">
                 <h4>No1 in Sales!</h4>
                 <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
             </div>
         </div>
         <div class="single-more-service-area">
             <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".4s">
-                <img src="img/core-img/edit.png" alt="">
+                <img src="{{ asset('assets/img/front-end/core-img/edit.png') }}" alt="">
                 <h4>Documentation inside</h4>
                 <p>Tiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
             </div>
         </div>
         <div class="single-more-service-area">
             <div class="more-service-content text-center wow fadeInUp" data-wow-delay=".7s">
-                <img src="img/core-img/video-camera.png" alt="">
+                <img src="{{ asset('assets/img/front-end/core-img/video-camera.png') }}" alt="">
                 <h4>Modern Design</h4>
                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
             </div>
         </div>
         <div class="single-more-service-area">
-            <div class="more-service-content text-center wow fadeInUp" data-wow-delay="1s">
-                <img src="img/core-img/presentation.png" alt="">
+            <div class="more-service-content text-center wow presentation" data-wow-delay="1s">
+                <img src="{{ asset('assets/img/front-end/core-img/edit.png') }}" alt="">
                 <h4>Marketing Strategist</h4>
                 <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am.</p>
             </div>
@@ -304,7 +304,7 @@
         <div class="mosh-portfolio">
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item gd">
-                <img src="img/portfolio-img/1.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/1.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -314,7 +314,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item bi">
-                <img src="img/portfolio-img/2.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/2.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -324,7 +324,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item gd bi">
-                <img src="img/portfolio-img/3.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/3.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -334,7 +334,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item pho">
-                <img src="img/portfolio-img/4.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/4.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -344,7 +344,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item pho">
-                <img src="img/portfolio-img/5.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/5.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -354,7 +354,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wd pc">
-                <img src="img/portfolio-img/6.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/6.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -364,7 +364,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item wd">
-                <img src="img/portfolio-img/7.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/7.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -374,7 +374,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="single_gallery_item pc">
-                <img src="img/portfolio-img/8.jpg" alt="">
+                <img src="{{ asset('assets/img/front-end/portfolio-img/8.jpg') }}" alt="">
                 <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
                     <div class="port-hover-text text-center">
                         <h4>DFR Corp. Branding</h4>
@@ -400,7 +400,7 @@
         </div>
 
         <div class="workflow-img">
-            <img src="img/core-img/work-progress.png" alt="">
+            <img src="{{ asset('assets/img/front-end/core-img/work-progress.png') }}" alt="">
         </div>
 
         <div class="workflow-slides-area">
@@ -449,7 +449,7 @@
     <!-- ***** Service Area End ***** -->
 
     <!-- ***** CTA Area Start ***** -->
-    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url(img/bg-img/cta.jpg);">
+    <section class="mosh-call-to-action-area bg-img bg-overlay section_padding_100" style="background-image: url({{ asset('assets/img/front-end/bg-img/cta.jpg') }});">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -474,7 +474,7 @@
                 <div class="row">
                     <div class="col-12 col-sm-6 col-lg-3">
                         <div class="single-footer-widget mb-100">
-                            <a href="#" class="mb-50 d-block"><img src="img/core-img/logo.png" alt=""></a>
+                            <a href="#" class="mb-50 d-block"><img src="{{ asset('assets/img/front-end/core-img/logo.png') }}" alt=""></a>
                             <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellent esque sit amet tellus blandit. Etiam nec odio vestibul.</p>
                         </div>
                     </div>
@@ -524,19 +524,19 @@
                             <h5>Contact Info</h5>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
-                                    <img src="img/core-img/map.png" alt="">
+                                    <img src="{{ asset('assets/img/front-end/core-img/map.png') }}" alt="">
                                 </div>
                                 <p>4127/ 5B-C Mislane Road, Gibraltar, UK</p>
                             </div>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
-                                    <img src="img/core-img/call.png" alt="">
+                                    <img src="{{ asset('assets/img/front-end/core-img/call.png') }}" alt="">
                                 </div>
                                 <p>Main: 203-808-8613 <br> Office: 203-808-8648</p>
                             </div>
                             <div class="footer-single-contact-info d-flex">
                                 <div class="contact-icon">
-                                    <img src="img/core-img/message.png" alt="">
+                                    <img src="{{ asset('assets/img/front-end/core-img/message.png') }}" alt="">
                                 </div>
                                 <p>office@yourbusiness.com</p>
                             </div>
@@ -574,15 +574,15 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
     <!-- ***** Footer Area End ***** -->
 
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets/js/front-end/jquery-2.2.4.min.js') }}"></script>
     <!-- Popper js -->
-    <script src="js/popper.min.js"></script>
+    <script src="{{ asset('assets/js/front-end/popper.min.js') }}"></script>
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="{{ asset('assets/js/front-end/bootstrap.min.js') }}"> </script>
     <!-- All Plugins js -->
-    <script src="js/plugins.js"></script>
+    <script src="{{ asset('assets/js/front-end/plugins.js') }}"></script>
     <!-- Active js -->
-    <script src="js/active.js"></script>
+    <script src="{{ asset('assets/js/front-end/active.js') }}"></script>
 </body>
 
 </html>
