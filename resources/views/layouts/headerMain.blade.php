@@ -51,25 +51,25 @@
 
                         <div class="collapse navbar-collapse justify-content-end" id="mosh-navbar">
                             <ul class="navbar-nav animated" id="nav">
-                                <li class="nav-item active"><a class="nav-link" href="/">Home</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">
-                                        <a class="dropdown-item" href="index.html">Home</a>
-                                        <a class="dropdown-item" href="about.html">About Us</a>
-                                        <a class="dropdown-item" href="services.html">Services</a>
-                                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                                        <a class="dropdown-item" href="blog.html">Blog</a>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="elements.html">Elements</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
-                                <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                                <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-                                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                                <li class="nav-item active"><a class="nav-link" href="/">Início</a></li>
+{{--                                <li class="nav-item dropdown">--}}
+{{--                                    <a class="nav-link dropdown-toggle" href="#" id="moshDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>--}}
+{{--                                    <div class="dropdown-menu" aria-labelledby="moshDropdown">--}}
+{{--                                        <a class="dropdown-item" href="index.html">Home</a>--}}
+{{--                                        <a class="dropdown-item" href="about.html">About Us</a>--}}
+{{--                                        <a class="dropdown-item" href="services.html">Services</a>--}}
+{{--                                        <a class="dropdown-item" href="portfolio.html">Portfolio</a>--}}
+{{--                                        <a class="dropdown-item" href="blog.html">Blog</a>--}}
+{{--                                        <a class="dropdown-item" href="contact.html">Contact</a>--}}
+{{--                                        <div class="dropdown-divider"></div>--}}
+{{--                                        <a class="dropdown-item" href="elements.html">Elements</a>--}}
+{{--                                    </div>--}}
+{{--                                </li>--}}
+                                <li class="nav-item"><a class="nav-link" href="/sobre">Sobre nós</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/perdidos">Perdidos</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/achados">Achados</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/apoio">Apoio</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/contactos">Contactos</a></li>
                             </ul>
                             <!-- Search Form Area Start -->
                             <div class="search-form-area animated">
@@ -84,8 +84,8 @@
                             </div>
                             <!-- Login/Register btn -->
                             <div class="login-register-btn">
-                                <a href="#">Login</a>
-                                <a href="#">/ Register</a>
+                                <a href="/entrar">Entrar</a>
+                                <a href="/registo">/ Registo</a>
                             </div>
                         </div>
                     </nav>

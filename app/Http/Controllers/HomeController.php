@@ -25,4 +25,30 @@ class HomeController extends Controller
     {
         return view('index');
     }
+
+    public function about()
+    {
+        return view('sobre');
+    }
+
+    public function lost()
+    {
+        return view('perdidos');
+    }
+
+    public function found()
+    {
+        return view('achados');
+    }
+
+    public function help()
+    {
+        return view('apoio');
+    }
+
+    public function contact()
+    {
+        return view('contactos');
+    }
+
 }
