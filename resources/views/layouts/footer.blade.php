@@ -12,7 +12,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5>Fast links</h5>
+                        <h5>Links úteis</h5>
                         <ul>
                             <li><a href="#">Home</a></li>
                             <li><a href="#">Testimonials</a></li>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5>Blog</h5>
+                        <h5>Últimos registos</h5>
                         <div class="footer-single--blog-post">
                             <a href="#" class="blog-post-date">
                                 <p>23 September, 2017</p>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-12 col-sm-6 col-lg-3">
                     <div class="single-footer-widget mb-100">
-                        <h5>Contact Info</h5>
+                        <h5>Info. de contacto</h5>
                         <div class="footer-single-contact-info d-flex">
                             <div class="contact-icon">
                                 <img src="{{ asset('assets/img/front-end/core-img/map.png') }}" alt="">
@@ -85,7 +85,7 @@
                     <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
                         <div class="copyright-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos direitos reservados | Encontre é um produto da <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://khateko.com" target="_blank">Khateko</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>
