@@ -17,9 +17,17 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/sobre', function () {
+    return view('sobre');
+});
+
+//Route::get('/sobre', 'HomeController@sobre')->name('sobre');
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+//Route::get('/sobre', [App\Http\Controllers\HomeController::class, 'sobre'])->name('sobre');
 
 Auth::routes();
 

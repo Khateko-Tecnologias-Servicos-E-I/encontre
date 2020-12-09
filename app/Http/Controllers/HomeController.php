@@ -26,7 +26,7 @@ class HomeController extends Controller
         return view('index');
     }
 
-    public function about()
+    public function sobre()
     {
         return view('sobre');
     }
