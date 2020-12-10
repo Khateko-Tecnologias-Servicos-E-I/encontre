@@ -20,10 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77418245-90d0-47eb-8c87-73d1e69f04f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/achados.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/perdidos.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/perdidos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perdidos.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +203,7 @@
       <workItem from="1606841776252" duration="22000" />
       <workItem from="1606913044401" duration="1717000" />
       <workItem from="1607411685649" duration="5000" />
-      <workItem from="1607543691291" duration="2526000" />
+      <workItem from="1607543691291" duration="2658000" />
     </task>
     <task id="LOCAL-00001" summary="Update footer text">
       <created>1606913444426</created>
