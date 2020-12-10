@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77418245-90d0-47eb-8c87-73d1e69f04f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/apoio.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/perdidos.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/perdidos.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,18 +159,18 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/layouts" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel-projects\encontre\public\assets" />
       <recent name="C:\xampp\htdocs\laravel-projects\encontre\resources\views" />
+      <recent name="C:\xampp\htdocs\laravel-projects\encontre\public\assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\laravel-projects\encontre\resources\views" />
       <recent name="C:\xampp\htdocs\laravel-projects\encontre\resources\views\layouts" />
+      <recent name="C:\xampp\htdocs\laravel-projects\encontre\resources\views" />
       <recent name="C:\xampp\htdocs\laravel-projects\encontre\public\img\front-end" />
       <recent name="C:\xampp\htdocs\laravel-projects\encontre\public\css\front-end" />
       <recent name="C:\xampp\htdocs\laravel-projects\encontre\public\js\front-end" />
@@ -203,7 +204,7 @@
       <workItem from="1606841776252" duration="22000" />
       <workItem from="1606913044401" duration="1717000" />
       <workItem from="1607411685649" duration="5000" />
-      <workItem from="1607543691291" duration="2658000" />
+      <workItem from="1607543691291" duration="3364000" />
     </task>
     <task id="LOCAL-00001" summary="Update footer text">
       <created>1606913444426</created>
