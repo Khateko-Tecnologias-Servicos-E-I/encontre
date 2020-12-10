@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', function () { return view('index'); });
+Route::get('/sobre', function () { return view('sobre'); });
+Route::get('/perdidos', function () { return view('perdidos'); });
+Route::get('/achados', function () { return view('achados'); });
 
-Route::get('/sobre', function () {
-    return view('sobre');
-});
 
 //Route::get('/sobre', 'HomeController@sobre')->name('sobre');
 
