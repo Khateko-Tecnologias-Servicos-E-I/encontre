@@ -20,7 +20,8 @@ Route::get('/achados', function () { return view('achados'); });
 Route::get('/apoio', function () { return view('apoio'); });
 Route::get('/contactos', function () { return view('contactos'); });
 
-Route::get('/entrar', function () { return view('entrar'); });
+Route::get('/entrada', function () { return view('entrada'); });
+Route::get('/registo', function () { return view('registo'); });
 
 
 //Route::get('/sobre', 'HomeController@sobre')->name('sobre');

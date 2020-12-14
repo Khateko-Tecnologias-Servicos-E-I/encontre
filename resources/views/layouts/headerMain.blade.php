@@ -84,7 +84,7 @@
                             </div>
                             <!-- Login/Register btn -->
                             <div class="login-register-btn">
-                                <a href="/entrar">Entrar</a>
+                                <a href="/entrada">Entrar</a>
                                 <a href="/registo">/ Registo</a>
                             </div>
                         </div>
