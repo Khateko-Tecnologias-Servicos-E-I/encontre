@@ -2,7 +2,6 @@
 
 @section('content')
 
-    <!-- ***** Breadcumb Area Start ***** -->
     <div class="mosh-breadcumb-area" style="background-image: url({{ asset('assets/img/front-end/core-img/breadcumb.png') }});">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
@@ -11,7 +10,7 @@
                         <h2>Achados</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Início</a></li>
+                                <li class="breadcrumb-item"><a href="#">Achados</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Todos os achados</li>
                             </ol>
                         </nav>
@@ -22,153 +21,198 @@
     </div>
     <!-- ***** Breadcumb Area End ***** -->
 
-    <!-- ***** Portfolio Area Start ***** -->
-    <section class="mosh-portfolio-area section_padding_100">
+    <!-- ***** Achados Area Start ***** -->
+    <section class="blog-area section_padding_100">
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="mosh-projects-menu">
-                        <div class="portfolio-menu">
-                            <p class="active" data-filter="*">Todos</p>
-                            <p data-filter=".gd">Categoria 1</p>
-                            <p data-filter=".bi">Categoria 2</p>
-                            <p data-filter=".pho">Categoria 3</p>
-                            <p data-filter=".wd">Categoria 4</p>
-                            <p data-filter=".pc">Categoria 5</p>
+                <div class="col-12 col-md-8">
+                    <div class="mosh-blog-posts">
+                        <div class="row">
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog wow fadeInUp" data-wow-delay="0.2s">
+                                    <!-- Post Thumb -->
+                                    <div class="blog-post-thumb">
+                                        <img src="{{ asset('assets/img/front-end/blog-img/1.jpg') }}" alt="">
+                                    </div>
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Lore Papp,</a><a href="#">October 22, 2017,</a><a href="#">Uncategorized,</a><a href="#">3 Comments</a></h6>
+                                    </div>
+                                    <!-- Post Title -->
+                                    <h2>The best November Design Inspiration</h2>
+                                    <!-- Post Excerpt -->
+                                    <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am. Quisque luctus lorem eu massa ornare, ac posuere massa finibus. Pellentesque varius dui quis feugiat sodales. Fusce varius arcu sed massa convallis malesuada. Pellentesque interdum lorem a leo cursus, non aliquet ante tincidunt.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog wow fadeInUp" data-wow-delay="0.7s">
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Lore Papp,</a><a href="#">October 22, 2017,</a><a href="#">Uncategorized,</a><a href="#">3 Comments</a></h6>
+                                    </div>
+                                    <!-- Post Title -->
+                                    <h2>News about the New Yourk Design Conference</h2>
+                                    <!-- Post Excerpt -->
+                                    <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am. Quisque luctus lorem eu massa ornare, ac posuere massa finibus. Pellentesque varius dui quis feugiat sodales. Fusce varius arcu sed massa convallis malesuada. Pellentesque interdum lorem a leo cursus, non aliquet ante tincidunt.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog wow fadeInUp" data-wow-delay="1.2s">
+                                    <!-- Post Thumb -->
+                                    <div class="blog-post-thumb">
+                                        <img src="{{ asset('assets/img/front-end/blog-img/2.jpg') }}" alt="">
+                                    </div>
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Lore Papp,</a><a href="#">October 22, 2017,</a><a href="#">Uncategorized,</a><a href="#">3 Comments</a></h6>
+                                    </div>
+                                    <!-- Post Title -->
+                                    <h2>The best November Design Inspiration</h2>
+                                    <!-- Post Excerpt -->
+                                    <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am. Quisque luctus lorem eu massa ornare, ac posuere massa finibus. Pellentesque varius dui quis feugiat sodales. Fusce varius arcu sed massa convallis malesuada. Pellentesque interdum lorem a leo cursus, non aliquet ante tincidunt.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                            <!-- Single Blog Start -->
+                            <div class="col-12">
+                                <div class="single-blog wow fadeInUp" data-wow-delay="1.7s">
+                                    <!-- Post Thumb -->
+                                    <div class="blog-post-thumb">
+                                        <img src="{{ asset('assets/img/front-end/blog-img/3.jpg') }}" alt="">
+                                    </div>
+                                    <!-- Post Meta -->
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Lore Papp,</a><a href="#">October 22, 2017,</a><a href="#">Uncategorized,</a><a href="#">3 Comments</a></h6>
+                                    </div>
+                                    <!-- Post Title -->
+                                    <h2>The best November Design Inspiration</h2>
+                                    <!-- Post Excerpt -->
+                                    <p>Nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am. Quisque luctus lorem eu massa ornare, ac posuere massa finibus. Pellentesque varius dui quis feugiat sodales. Fusce varius arcu sed massa convallis malesuada. Pellentesque interdum lorem a leo cursus, non aliquet ante tincidunt.</p>
+                                    <!-- Read More btn -->
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pagination Area Start -->
+                    <div class="mosh-pagination-area">
+                        <nav>
+                            <ul class="pagination">
+                                <li class="page-item active"><a class="page-link" href="#">1.</a></li>
+                                <li class="page-item"><a class="page-link" href="#">2.</a></li>
+                                <li class="page-item"><a class="page-link" href="#">3.</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <div class="mosh-blog-sidebar">
+
+                        <div class="blog-post-search-widget mb-100">
+                            <form action="#">
+                                <input type="search" name="search" id="Search">
+                                <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                            </form>
+                        </div>
+
+                        <div class="blog-post-archives mb-100">
+                            <h5>Archives</h5>
+                            <ul>
+                                <li><a href="#">March 2018</a></li>
+                                <li><a href="#">April 2018</a></li>
+                                <li><a href="#">May 2018</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="blog-post-categories mb-100">
+                            <h5>Categories</h5>
+                            <ul>
+                                <li><a href="#">Entertaiment</a></li>
+                                <li><a href="#">Business &amp; Finance</a></li>
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">Creative fields</a></li>
+                                <li><a href="#">Lifestyle &amp; Travel</a></li>
+                                <li><a href="#">Uncategorized</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="latest-blog-posts mb-100">
+                            <h5>Latest Posts</h5>
+                            <!-- Single Latest Blog Post -->
+                            <div class="single-latest-blog-post d-flex">
+                                <div class="latest-blog-post-thumb">
+                                    <img src="{{ asset('assets/img/front-end/blog-img/lb-1.jpg') }}" alt="">
+                                </div>
+                                <div class="latest-blog-post-content">
+                                    <h6><a href="#">A simple blog post</a></h6>
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Jane Smith</a>/<a href="#">Aug 25, 2016</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Latest Blog Post -->
+                            <div class="single-latest-blog-post d-flex">
+                                <div class="latest-blog-post-thumb">
+                                    <img src="{{ asset('assets/img/front-end/blog-img/lb-2.jpg') }}" alt="">
+                                </div>
+                                <div class="latest-blog-post-content">
+                                    <h6><a href="#">A new way to see things in design</a></h6>
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Jane Smith</a>/<a href="#">Aug 25, 2016</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Latest Blog Post -->
+                            <div class="single-latest-blog-post d-flex">
+                                <div class="latest-blog-post-thumb">
+                                    <img src="{{ asset('assets/img/front-end/blog-img/lb-3.jpg') }}" alt="">
+                                </div>
+                                <div class="latest-blog-post-content">
+                                    <h6><a href="#">This is just a blog post</a></h6>
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Jane Smith</a>/<a href="#">Aug 25, 2016</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Single Latest Blog Post -->
+                            <div class="single-latest-blog-post d-flex">
+                                <div class="latest-blog-post-thumb">
+                                    <img src="{{ asset('assets/img/front-end/blog-img/lb-4.jpg') }}" alt="">
+                                </div>
+                                <div class="latest-blog-post-content">
+                                    <h6><a href="#">Make a good investment in 2018</a></h6>
+                                    <div class="post-meta">
+                                        <h6>By <a href="#">Jane Smith</a>/<a href="#">Aug 25, 2016</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="instagram-feeds">
+                            <h5>Instagram</h5>
+                            <ul>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-1.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-2.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-3.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-4.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-5.jpg') }}" alt=""></a></li>
+                                <li><a href="#"><img src="{{ asset('assets/img/front-end/blog-img/ins-6.jpg') }}" alt=""></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="mosh-portfolio">
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item gd">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/1.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item bi">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/2.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item gd bi">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/3.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pho">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/4.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pho">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/5.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item wd pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/6.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item wd">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/7.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/8.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/9.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/10.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/11.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="single_gallery_item pc">
-                <img src="{{ asset('assets/img/front-end/portfolio-img/12.jpg') }}" alt="">
-                <div class="gallery-hover-overlay d-flex align-items-center justify-content-center">
-                    <div class="port-hover-text text-center">
-                        <h4>DFR Corp. Branding</h4>
-                        <a href="#">Brand Identity</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Discover More btn -->
-        <div class="col-12 text-center mt-100">
-            <a href="#" class="btn mosh-btn">Ver mais</a>
-        </div>
     </section>
-    <!-- ***** Portfolio Area End ***** -->
+    <!-- ***** Achados Area End ***** -->
 
 @endsection
