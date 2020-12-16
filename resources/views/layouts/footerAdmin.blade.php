@@ -67,12 +67,12 @@
 <footer class="footer mt-auto">
     <div class="copyright bg-white">
         <p>
-            &copy; <span id="copy-year">2019</span> Copyright Sleek Dashboard Bootstrap Template by
+            &copy; <span id="copy-year">2021</span> Encontre. Um produto da
             <a
                 class="text-primary"
-                href="http://www.iamabdus.com/"
+                href="https://www.khateko.com/"
                 target="_blank"
-            >Abdus</a
+            >Khateko</a
             >.
         </p>
     </div>
