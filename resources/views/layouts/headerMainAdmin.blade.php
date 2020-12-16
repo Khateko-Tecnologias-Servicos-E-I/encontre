@@ -16,7 +16,7 @@
 
 
     <!-- PLUGINS CSS STYLE -->
-    <link href="assets/plugins/nprogress/nprogress.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/nprogress/nprogress.css') }}" rel="stylesheet" />
 
 
 
@@ -24,23 +24,23 @@
 
 
 
-    <link href="assets/plugins/jvectormap/jquery-jvectormap-2.0.3.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/jvectormap/jquery-jvectormap-2.0.3.css') }}" rel="stylesheet" />
 
 
 
-    <link href="assets/plugins/daterangepicker/daterangepicker.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/daterangepicker/daterangepicker.css') }}" rel="stylesheet" />
 
 
 
-    <link href="assets/plugins/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="{{ asset('assets/plugins/toastr/toastr.min.css') }}" rel="stylesheet" />
 
 
 
     <!-- SLEEK CSS -->
-    <link id="sleek-css" rel="stylesheet" href="assets/css/sleek.css" />
+    <link id="sleek-css" rel="stylesheet" href="{{ asset('assets/css/sleek.css') }}" />
 
     <!-- FAVICON -->
-    <link href="assets/img/favicon.png" rel="shortcut icon" />
+    <link href="{{ asset('assets/css/back-end/img/favicon.png') }}" rel="shortcut icon" />
 
 
 
@@ -52,7 +52,7 @@
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <script src="assets/plugins/nprogress/nprogress.js"></script>
+    <script src="{{ asset('assets/plugins/nprogress/nprogress.js') }}"></script>
 </head>
 
 
@@ -69,18 +69,18 @@
 
 <div class="wrapper">
     <!-- Github Link -->
-    <a href="https://github.com/tafcoder/sleek-dashboard"  target="_blank" class="github-link">
-        <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">
-            <defs>
-                <linearGradient id="grad1" x1="0%" y1="75%" x2="100%" y2="0%">
-                    <stop offset="0%" style="stop-color:#896def;stop-opacity:1" />
-                    <stop offset="100%" style="stop-color:#482271;stop-opacity:1" />
-                </linearGradient>
-            </defs>
-            <path d="M 0,0 L115,115 L115,115 L142,142 L250,250 L250,0 Z" fill="url(#grad1)"></path>
-        </svg>
-        <i class="mdi mdi-github-circle"></i>
-    </a>
+{{--    <a href="https://github.com/tafcoder/sleek-dashboard"  target="_blank" class="github-link">--}}
+{{--        <svg width="70" height="70" viewBox="0 0 250 250" aria-hidden="true">--}}
+{{--            <defs>--}}
+{{--                <linearGradient id="grad1" x1="0%" y1="75%" x2="100%" y2="0%">--}}
+{{--                    <stop offset="0%" style="stop-color:#896def;stop-opacity:1" />--}}
+{{--                    <stop offset="100%" style="stop-color:#482271;stop-opacity:1" />--}}
+{{--                </linearGradient>--}}
+{{--            </defs>--}}
+{{--            <path d="M 0,0 L115,115 L115,115 L142,142 L250,250 L250,0 Z" fill="url(#grad1)"></path>--}}
+{{--        </svg>--}}
+{{--        <i class="mdi mdi-github-circle"></i>--}}
+{{--    </a>--}}
 
     <!--
   ====================================
@@ -91,7 +91,7 @@
         <div id="sidebar" class="sidebar sidebar-with-footer">
             <!-- Aplication Brand -->
             <div class="app-brand">
-                <a href="/index.html" title="Sleek Dashboard">
+                <a href="/indexAdmin" title="Encontre">
                     <svg
                         class="brand-icon"
                         xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@
                             <path class="logo-fill-white" fill="#FFF" d="M11 4v25l8 4V0z" />
                         </g>
                     </svg>
-                    <span class="brand-name text-truncate">Sleek Dashboard</span>
+                    <span class="brand-name text-truncate">Encontre</span>
                 </a>
             </div>
             <!-- begin sidebar scrollbar -->
@@ -1115,13 +1115,13 @@
                         <!-- User Account -->
                         <li class="dropdown user-menu">
                             <button href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                                <img src="assets/img/user/user.png" class="user-image" alt="User Image" />
+                                <img src="{{ asset('assets/img/back-end/user/user.png') }}" class="user-image" alt="User Image" />
                                 <span class="d-none d-lg-inline-block">Abdus Salam</span>
                             </button>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <!-- User image -->
                                 <li class="dropdown-header">
-                                    <img src="assets/img/user/user.png" class="img-circle" alt="User Image" />
+                                    <img src="{{ asset('assets/img/back-end/user/user.png') }}" class="img-circle" alt="User Image" />
                                     <div class="d-inline-block">
                                         Abdus Salam <small class="pt-1">iamabdus@gmail.com</small>
                                     </div>
