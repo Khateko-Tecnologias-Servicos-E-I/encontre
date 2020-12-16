@@ -82,7 +82,7 @@
                                     </div>
                                     <p><a class="text-blue" href="#">Esqueceu a senha?</a></p>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary btn-block mb-4">Entrar</button>
+                                <button type="submit" class="btn btn-lg btn-primary btn-block mb-4"><a href="/indexAdmin">Entrar</a></button>
                                 <p>Não possui conta ?
                                     <a class="text-blue" href="sign-up.html">Regista-se</a>
                                 </p>
