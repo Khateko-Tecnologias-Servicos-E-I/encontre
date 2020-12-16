@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//Front-end
 Route::get('/', function () { return view('index'); });
 Route::get('/sobre', function () { return view('sobre'); });
 Route::get('/perdidos', function () { return view('perdidos'); });
@@ -20,8 +21,12 @@ Route::get('/achados', function () { return view('achados'); });
 Route::get('/apoio', function () { return view('apoio'); });
 Route::get('/contactos', function () { return view('contactos'); });
 
+//Sign-in and sign-out
 Route::get('/entrada', function () { return view('entrada'); });
 Route::get('/registo', function () { return view('registo'); });
+
+//Back-end
+Route::get('/indexAdmin', function () { return view('indexAdmin'); });
 
 
 //Route::get('/sobre', 'HomeController@sobre')->name('sobre');
