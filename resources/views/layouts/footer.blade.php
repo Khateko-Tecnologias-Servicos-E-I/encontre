@@ -85,7 +85,7 @@
                     <div class="footer-bottom-content h-100 d-md-flex justify-content-between align-items-center">
                         <div class="copyright-text">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos direitos reservados | Encontre é um produto da <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://khateko.com" target="_blank">Khateko</a>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos direitos reservados | Encontre é um produto da <i class="fa fa-heart-o" aria-hidden="true"></i> <a href="https://khateko.co.mz" target="_blank">Khateko</a>
                                 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                             </p>
                         </div>

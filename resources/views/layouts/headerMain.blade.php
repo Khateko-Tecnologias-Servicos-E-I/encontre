@@ -84,8 +84,8 @@
                             </div>
                             <!-- Login/Register btn -->
                             <div class="login-register-btn">
-                                <a href="/entrada">Entrar</a>
-                                <a href="/registo">/ Registo</a>
+                                <a href="/login">Entrar</a>
+                                <a href="/register">/ Registo</a>
                             </div>
                         </div>
                     </nav>

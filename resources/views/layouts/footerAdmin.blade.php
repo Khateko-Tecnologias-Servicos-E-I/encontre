@@ -70,7 +70,7 @@
             &copy; <span id="copy-year">2021</span> Encontre. Um produto da
             <a
                 class="text-primary"
-                href="https://www.khateko.com/"
+                href="https://www.khateko.co.mz/"
                 target="_blank"
             >Khateko</a
             >.
