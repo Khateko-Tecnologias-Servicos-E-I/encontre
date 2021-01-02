@@ -84,7 +84,7 @@
                                 </div>
                                 <button type="submit" class="btn btn-lg btn-primary btn-block mb-4"><a href="/indexAdmin">Entrar</a></button>
                                 <p>Não possui conta ?
-                                    <a class="text-blue" href="sign-up.html">Regista-se</a>
+                                    <a class="text-blue" href="/register">Regista-se</a>
                                 </p>
                             </div>
                         </div>

@@ -61,19 +61,60 @@
                 </div>
                 <div class="card-body p-5">
                     <h4 class="text-dark mb-5">Registo</h4>
-                    <form action="/index.html">
+                    <form method="POST" action="{{ route('register') }}">
+                        @csrf
+
                         <div class="row">
                             <div class="form-group col-md-12 mb-4">
-                                <input type="text" class="form-control input-lg" id="name" aria-describedby="nameHelp" placeholder="Nome">
+{{--                                <input type="text" class="form-control input-lg" id="name" aria-describedby="nameHelp" placeholder="Nome completo" required>--}}
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus placeholder="Nome completo" required>
+
+                                @error('name')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+
                             </div>
                             <div class="form-group col-md-12 mb-4">
-                                <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Nome de utilizador">
+                                <input type="text" class="form-control input-lg" id="username" aria-describedby="usernameHelp" placeholder="Nome de utilizador" required>
+                                @error('username')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-12 mb-4">
+{{--                                <input type="email" class="form-control input-lg" id="email" aria-describedby="emailmeHelp" placeholder="Email" required>--}}
+                                <input id="email" type="email" aria-describedby="emailmeHelp" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" placeholder="Email"  required>
+
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
+                            </div>
+
+                            <div class="form-group col-md-12 ">
+{{--                                <input type="password" class="form-control input-lg" id="password" placeholder="Senha">--}}
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password" placeholder="Senha">
+
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="form-group col-md-12 ">
-                                <input type="password" class="form-control input-lg" id="password" placeholder="Senha">
-                            </div>
-                            <div class="form-group col-md-12 ">
-                                <input type="password" class="form-control input-lg" id="cpassword" placeholder="Confirmar senha">
+{{--                                <input type="password-confirm" class="form-control input-lg" id="password-confirm" placeholder="Confirmar senha">--}}
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password" placeholder="Confirmar senha">
+
+                                @error('password-confirm')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-md-12">
                                 <div class="d-inline-block mr-3">
@@ -85,8 +126,10 @@
 
                                 </div>
                                 <button type="submit" class="btn btn-lg btn-primary btn-block mb-4">Registar</button>
+
+
                                 <p>Já possui conta?
-                                    <a class="text-blue" href="/entrada">Entrar</a>
+                                    <a class="text-blue" href="/login">Entrar</a>
                                 </p>
                             </div>
                         </div>
@@ -98,7 +141,7 @@
     </div>
     <div class="copyright pl-0">
         <p class="text-center">&copy; 2021 Encontre. Um produto da
-            <a class="text-primary" href="http://www.khateko.com/" target="_blank">Khateko</a>.
+            <a class="text-primary" href="http://www.khateko.co.mz/" target="_blank">Khateko</a>.
         </p>
     </div>
 </div>
