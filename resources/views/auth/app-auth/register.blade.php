@@ -77,7 +77,9 @@
 
                             </div>
                             <div class="form-group col-md-12 mb-4">
-                                <input type="text" class="form-control input-lg" id="username" aria-describedby="usernameHelp" placeholder="Nome de utilizador" required>
+{{--                                <input type="text" class="form-control input-lg" id="username" aria-describedby="usernameHelp" placeholder="Nome de utilizador" required>--}}
+                                <input id="username" type="text" class="form-control @error('username') is-invalid @enderror" name="username" value="{{ old('username') }}" required autocomplete="username" autofocus placeholder="Nome de utilizador" aria-describedby="usernameHelp">
+
                                 @error('username')
                                 <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -119,10 +121,16 @@
                             <div class="col-md-12">
                                 <div class="d-inline-block mr-3">
                                     <label class="control control-checkbox">
-                                        <input type="checkbox" />
+                                        <input id="terms"  type="checkbox"  class="form-control @error('terms') is-invalid @enderror" name="terms" value="{{ old('terms') }}" required/>
                                         <div class="control-indicator"></div>
                                         Concordo com os termos e condições
                                     </label>
+
+                                    @error('terms')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
 
                                 </div>
                                 <button type="submit" class="btn btn-lg btn-primary btn-block mb-4">Registar</button>
