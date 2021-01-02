@@ -30,6 +30,7 @@ Route::get('/indexAdmin', function () { return view('indexAdmin'); });
 
 
 //Route::get('/sobre', 'HomeController@sobre')->name('sobre');
+Route::resource('users', 'UserController');
 
 
 Auth::routes();
