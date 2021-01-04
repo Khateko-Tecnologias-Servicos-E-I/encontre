@@ -63,26 +63,45 @@
                 <div class="card-body p-5">
 
                     <h4 class="text-dark mb-5">Entrada</h4>
-                    <form action="/index.html">
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
                         <div class="row">
                             <div class="form-group col-md-12 mb-4">
-                                <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Nome de utilizador">
+{{--                                <input type="email" class="form-control input-lg" id="email" aria-describedby="emailHelp" placeholder="Nome de utilizador">--}}
+                                <input id="email" type="email" class="form-control input-lg @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" aria-describedby="emailHelp"  required autocomplete="email" autofocus placeholder="Nome de utilizador ou Email">
+
+                                @error('email')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="form-group col-md-12 ">
-                                <input type="password" class="form-control input-lg" id="password" placeholder="Senha">
+{{--                                <input type="password" class="form-control input-lg" id="password" placeholder="Senha">--}}
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="Senha">
+
+                                @error('password')
+                                <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                @enderror
                             </div>
                             <div class="col-md-12">
                                 <div class="d-flex my-2 justify-content-between">
                                     <div class="d-inline-block mr-3">
-                                        <label class="control control-checkbox">Lembrar de mim
-                                            <input type="checkbox" />
+                                        <label class="control control-checkbox" for="remember">Lembrar de mim
+                                            <input type="checkbox" id="remember"/>
                                             <div class="control-indicator"></div>
                                         </label>
 
                                     </div>
                                     <p><a class="text-blue" href="#">Esqueceu a senha?</a></p>
                                 </div>
-                                <button type="submit" class="btn btn-lg btn-primary btn-block mb-4"><a href="/indexAdmin">Entrar</a></button>
+                                <button type="submit" class="bbtn btn-lg btn-primary btn-block mb-4">
+                                    {{ __('ENTRAR') }}
+                                </button>
+
+{{--                                <button type="submit" class="btn btn-lg btn-primary btn-block mb-4"><a href="/indexAdmin">Entrar</a></button>--}}
                                 <p>Não possui conta ?
                                     <a class="text-blue" href="/register">Regista-se</a>
                                 </p>
